@@ -5,4 +5,4 @@ go:
 addons:
   ssh_known_hosts: $HOST_IP
 
-script: go test ./*
+script: go test test/chaincode_example02_test.go
